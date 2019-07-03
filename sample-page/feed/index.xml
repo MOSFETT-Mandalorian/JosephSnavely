@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: My Digital Résumé	</title>
-	<atom:link href="/mosfett-mandalorian.github.io/JosephSnavely/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>/mosfett-mandalorian.github.io/JosephSnavely</link>
+	<atom:link href="https:///mosfett-mandalorian.github.io/JosephSnavely/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>https:///mosfett-mandalorian.github.io/JosephSnavely</link>
 	<description>The complete works of Joseph Snavely</description>
 	<lastBuildDate>Wed, 03 Jul 2019 05:04:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
