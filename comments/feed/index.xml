@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Welcome to my website	</title>
-	<atom:link href="http://mosfett-mandalorian.github.io/JosephSnavely/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://mosfett-mandalorian.github.io/JosephSnavely</link>
+	<atom:link href="/mosfett-mandalorian.github.io/JosephSnavely/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/mosfett-mandalorian.github.io/JosephSnavely</link>
 	<description>The complete works of Joseph Snavely</description>
 	<lastBuildDate>Wed, 03 Jul 2019 04:03:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,10 +20,10 @@
 			<item>
 				<title>
 				Comment on Hello world! by A WordPress Commenter				</title>
-				<link>http://mosfett-mandalorian.github.io/JosephSnavely/2019/07/03/hello-world/#comment-1</link>
+				<link>/mosfett-mandalorian.github.io/JosephSnavely/2019/07/03/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 03 Jul 2019 04:03:05 +0000</pubDate>
-		<guid isPermaLink="false">http://mosfett-mandalorian.github.io/JosephSnavely/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/mosfett-mandalorian.github.io/JosephSnavely/?p=1#comment-1</guid>
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
 Commenter avatars come from &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
