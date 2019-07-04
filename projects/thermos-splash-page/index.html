@@ -64,7 +64,7 @@ body{background-color:#f5f5f5;}.navigation.pagination .nav-links .page-numbers.c
 .site-info-wrapper{background-color:#f5f5f5;}.site-info-wrapper .social-menu a,.site-info-wrapper .social-menu a:visited,.site-info-wrapper .social-menu a:hover,.site-info-wrapper .social-menu a:visited:hover{color:#f5f5f5;}
 </style>
 
-1cab
+2016
 <link rel='stylesheet' id='primer-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&#038;subset=latin&#038;ver=5.2.2' type='text/css' media='all' />
 <style id='primer-fonts-inline-css' type='text/css'>
 .site-title{font-family:"Open Sans", sans-serif;}
@@ -171,11 +171,43 @@ blockquote,.entry-meta,.entry-footer,.comment-list li .comment-meta .says,.comme
 <div class="page-content">
 
 	
-<figure class="wp-block-image"><img src="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/JankThermos-753x1024.jpg" alt="" class="wp-image-74" srcset="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/JankThermos-753x1024.jpg 753w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/JankThermos-220x300.jpg 220w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/JankThermos-768x1045.jpg 768w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/JankThermos-1600x2177.jpg 1600w" sizes="(max-width: 753px) 100vw, 753px" /></figure>
+<h3>Preamble</h3>
 
 
 
-<p>Lukewarm coffee? I say no, thank you. Also this is what this thumbnail looks like with more words. Looootttttttssssssssssss more words. Does it show em all? Who knows? Not me. Not yet.</p>
+<p>When I first had the idea for an actively heated thermos, I wondered why I hadn&#8217;t seen one for sale before. The reasons, physics and chemistry, became more obvious when I started looking into building one.  </p>
+
+
+
+<p>Heating the contents of a thermos generally means heating water, and water <strong>really</strong> does not want to be heated. Or cooled for that matter. Water, as far as liquids go, has an unusually high specific heat. The specific heat capacity of a material is the amount of energy (joules) required to heat one unit of mass (kilograms) by one degree of temperature (Kelvin). Simply put, this means that some materials require more energy to change their temperature than others, and in the case of water its a <strong>lot</strong> more.</p>
+
+
+
+<p>To illustrate this point, lets compare water and air. The specific heat of air at stp is approximately 1 kJ/kgK while for water it is 4.187 kJ/kgK. A difference of over 4x already seems pretty big, but it doesn&#8217;t stop there. The other problem with water is that it&#8217;s fairly dense. This means that for the same energy as it takes to heat one liter of water (1 kg at stp) by one degree you could heat approximately 3,000 liters of air (4kg at stp) the same amount. For scale, that&#8217;s the volume of a small bedroom.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignleft is-resized"><img src="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/Room.png" alt="" class="wp-image-159" width="286" height="236" srcset="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/Room.png 575w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/Room-300x248.png 300w" sizes="(max-width: 286px) 100vw, 286px" /></figure></div>
+
+
+
+<figure class="wp-block-image is-resized"><img src="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter-1024x1024.jpg" alt="" class="wp-image-160" width="244" height="244" srcset="https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter-1024x1024.jpg 1024w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter-150x150.jpg 150w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter-300x300.jpg 300w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter-768x768.jpg 768w, https:///mosfett-mandalorian.github.io/JosephSnavely/wp-content/uploads/2019/07/1liter.jpg 1500w" sizes="(max-width: 244px) 100vw, 244px" /></figure>
+
+
+
+<p></p>
+
+
+
+<p>So water takes quite a bit of energy to heat. So what? People have been boiling water since the stone age, what&#8217;s the problem? This brings me to the second major obstacle of this project: the energy density of batteries. If you are heating water with fire/gas or with an electric stove on mains power then the energy requirements aren&#8217;t that big of a deal since it&#8217;s readily available. However, once you start trying to cram that energy into a battery pack smaller than a car battery you will find you have your work cut out for you.</p>
+
+
+
+<p>Before the advent of NiCads and LiPos a project such as this would have been impossible, and it&#8217;s only recently that it has become relatively inexpensive. Initially I had the idea that I would use a daisy chain of 9V Alkaline batteries since I had once heard of off-road enthusiasts keeping enough in their cars to do impromptu DC spot welds with them. I now know that this isn&#8217;t merely dangerous and stupid; It&#8217;s dangerous, stupid, <strong>and</strong> inefficient.</p>
+
+
+
+<p></p>
 
 </div><!-- .page-content -->
 
@@ -191,7 +223,9 @@ blockquote,.entry-meta,.entry-footer,.comment-list li .comment-meta .says,.comme
 
 <div id="secondary" class="widget-area" role="complementary">
 
-	<aside id="text-2" class="widget widget_text"><h4 class="widget-title">Contact me</h4>			<div class="textwidget"><p><strong>Email</strong><br />
+	<aside id="text-2" class="widget widget_text"><h4 class="widget-title">Contact me</h4>
+72b
+			<div class="textwidget"><p><strong>Email</strong><br />
 jps13289@uga.edu</p>
 <p><strong>Phone</strong><br />
 (706)-510-9081</p>

@@ -12,7 +12,7 @@
 	<atom:link href="https:///mosfett-mandalorian.github.io/JosephSnavely/feed/" rel="self" type="application/rss+xml" />
 	<link>https:///mosfett-mandalorian.github.io/JosephSnavely</link>
 	<description>The complete works of Joseph Snavely</description>
-	<lastBuildDate>Wed, 03 Jul 2019 04:03:05 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 04 Jul 2019 15:03:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,18 +22,15 @@
 	<item>
 		<title>Hello world!</title>
 		<link>https:///mosfett-mandalorian.github.io/JosephSnavely/2019/07/03/hello-world/</link>
-				<comments>https:///mosfett-mandalorian.github.io/JosephSnavely/2019/07/03/hello-world/#comments</comments>
 				<pubDate>Wed, 03 Jul 2019 04:03:05 +0000</pubDate>
 		<dc:creator><![CDATA[root]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
 		<guid isPermaLink="false">https:///mosfett-mandalorian.github.io/JosephSnavely/?p=1</guid>
-				<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+				<description><![CDATA[This is the start of my blog!]]></description>
 								<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>This is the start of my blog!</p>
 ]]></content:encoded>
-							<wfw:commentRss>https:///mosfett-mandalorian.github.io/JosephSnavely/2019/07/03/hello-world/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-							</item>
+										</item>
 	</channel>
 </rss>
