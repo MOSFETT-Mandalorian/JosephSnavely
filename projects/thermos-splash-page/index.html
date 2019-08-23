@@ -168,7 +168,7 @@ blockquote,.entry-meta,.entry-footer,.comment-list li .comment-meta .says,.comme
 <div class="page-content">
 
 	
-<h3>Preamble</h3>
+<h3>Chapter 1 of 3: Design Constraints</h3>
 
 
 
@@ -196,15 +196,63 @@ blockquote,.entry-meta,.entry-footer,.comment-list li .comment-meta .says,.comme
 
 
 
-<p>So water takes quite a bit of energy to heat. So what? People have been boiling water since the stone age, what&#8217;s the problem? This brings me to the second major obstacle of this project: the energy density of batteries. If you are heating water with fire/gas or with an electric stove on mains power then the energy requirements aren&#8217;t that big of a deal since it&#8217;s readily available. However, once you start trying to cram that energy into a battery pack smaller than a car battery you will find you have your work cut out for you.</p>
+<p>So water takes quite a bit of energy to heat. So what? People have been boiling water since the stone age, what&#8217;s the problem? This brings me to the second major obstacle of this project: the energy density of batteries. If you are heating water with fire/gas or with an electric stove on mains power then the energy requirements aren&#8217;t that big of a deal since it&#8217;s readily available. However, once you start trying to cram that energy into a battery pack smaller than a car battery you will find you have your work cut out for you. Were this project&#8217;s aim to <strong>brew </strong>coffee instead of simply replenish its heat, then the batteries would have to be prohibitively large.</p>
 
 
 
-<p>Before the advent of NiCads and LiPos a project such as this would have been impossible, and it&#8217;s only recently that it has become relatively inexpensive. Initially I had the idea that I would use a daisy chain of 9V Alkaline batteries since I had once heard of off-road enthusiasts keeping enough in their cars to do impromptu DC spot welds with them. I now know that this isn&#8217;t merely dangerous and stupid; It&#8217;s dangerous, stupid, <strong>and</strong> inefficient.</p>
+<p>Keeping water at a high temperature may be an easier task than getting it there, but even for modern battery technology it is no small feat. When selecting a battery a battery for this project I was presented with five important parameters to consider:</p>
 
 
 
-<p></p>
+<h4>#1 Maximum output current</h4>
+
+
+
+<p>The thermos would be using a resistance heating element to heat the liquid. This mean that the amount of heat that can be delivered to the water at any given time is limited by the square of the current, as seen from the equation:</p>
+
+
+
+<p style="text-align:center"><strong>P = R• I</strong><sup><strong>2</strong></sup><strong> </strong></p>
+
+
+
+<p>P being the power dissipated as heat in Watts. This parameter is important since the entire system will be slowly cooling. If the output current isn&#8217;t high enough then Heat loss &gt; Heat gain, and the liquid will slowly cool despite the heater being on.</p>
+
+
+
+<h4>#2 Internal resistance</h4>
+
+
+
+<p>As stated above, power dissipated as heat is proportional to the square of the current. This is a factor that works in our favor when we are trying use energy as heat, as it means we can give off a great deal of power with a reasonable current. This same principle works against us, however, in regards to a batteries internal resistance. Internal resistance is the innate resistance a battery exhibits due to its construction. Any battery meant to produce high currents should ideally have as low an internal resistance as possible, since the power dissipated by this resistance is generated inside the battery. This means the battery is wasting energy on useless heat: heat that could potentially be dangerous if the battery gets hot enough.</p>
+
+
+
+<h4>#3 Battery life</h4>
+
+
+
+<p>Modern batteries have their nominal battery life listed in Amp/hours or miliAmp/hours. Since this project&#8217;s goal is to keep coffee while a person is out for the day the selected battery should probably have 5-10 Amp/hours worth of energy. This is based on the estimation that the heater will average 1-2 Amps per hour, depending on the temperature being maintained.</p>
+
+
+
+<h4>#4 Size</h4>
+
+
+
+<p>Since the thermos is meant to be a self contained device, the battery cannot be prohibitively large. This is mainly to restrict the devise from being unwieldy or difficult drink from.</p>
+
+
+
+<h4> #5 Cost</h4>
+
+
+
+<p>This project was built with my own pocket change, so selecting components within a reasonable price range was tacit to the devices construction.</p>
+
+
+
+<p>Continue to <a href="https:///mosfett-mandalorian.github.io/JosephSnavely/thermos-design-process-2/">Chapter 2 of 3: Working prototype</a></p>
 
 </div><!-- .page-content -->
 
@@ -220,7 +268,7 @@ blockquote,.entry-meta,.entry-footer,.comment-list li .comment-meta .says,.comme
 
 <div id="secondary" class="widget-area" role="complementary">
 
-	<aside id="nav_menu-3" class="widget widget_nav_menu"><h4 class="widget-title">Project Links</h4><div class="menu-project-links-container"><ul id="menu-project-links" class="menu"><li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-71 current_page_item menu-item-204"><a href="https:///mosfett-mandalorian.github.io/JosephSnavely/projects/thermos-splash-page/" aria-current="page">Thermos Design Process</a></li>
+	<aside id="nav_menu-3" class="widget widget_nav_menu"><h4 class="widget-title">Project Links</h4><div class="menu-project-links-container"><ul id="menu-project-links" class="menu"><li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https:///mosfett-mandalorian.github.io/JosephSnavely/thermos-design-process/">Thermos Design Process</a></li>
 <li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="https:///mosfett-mandalorian.github.io/JosephSnavely/projects/pi-corder/">Pi-Corder</a></li>
 <li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https:///mosfett-mandalorian.github.io/JosephSnavely/heartbeat-sensor/">Heartbeat Sensor</a></li>
 <li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https:///mosfett-mandalorian.github.io/JosephSnavely/projects/stepper-motor-controller/">Stepper Motor Controller</a></li>
